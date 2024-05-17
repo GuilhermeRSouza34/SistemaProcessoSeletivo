@@ -1,18 +1,32 @@
-## Getting Started
+# Desafio Controle de Fluxo
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Este projeto foi desenvolvido como parte de uma atividade do curso de desenvolvedor Java. O objetivo é criar um programa que recebe dois parâmetros via terminal e realiza a contagem entre esses dois números.
 
-## Folder Structure
+## Funcionalidades
 
-The workspace contains two folders by default, where:
+- Solicita ao usuário que insira dois números inteiros via terminal.
+- Realiza a contagem entre esses dois números e imprime os valores no console.
+- Lança uma exceção customizada `ParametrosInvalidosException` se o segundo parâmetro for menor ou igual ao primeiro.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Como usar
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. Certifique-se de ter o Java Development Kit (JDK) instalado em seu sistema.
+2. Clone este repositório para o seu ambiente local.
+3. Abra um terminal e navegue até o diretório do projeto.
+4. Compile o código-fonte digitando o comando `javac Contador.java`.
+5. Execute o programa digitando o comando `java Contador`.
+6. Siga as instruções no terminal para inserir os dois parâmetros.
+7. Observa a contagem sendo impressa no console.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Estrutura do Projeto
 
-## Dependency Management
+- `Contador.java`: Contém a classe principal do programa, que realiza a contagem entre os dois números fornecidos.
+- `ParametrosInvalidosException.java`: Contém a classe de exceção customizada para lidar com parâmetros inválidos.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+## Autor
+
+[GuilhermeRSouza34]
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE).
